@@ -1,594 +1,408 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpeg" href="TSPSC_Logo.jpg">
-    <title>Telangana Public Service Commission</title>
+  <title>HTML Form</title>
+  <link rel="icon" type="image/png" href="icon.png">
 </head>
 <body>
-<!-- sitemap -->
-    <table width="100%" cellpadding="5" cellspacing="0" border="0" bgcolor="#333366">
-        <tr>
-            <td align="left">
-                <a href="https://websitenew.tspsc.gov.in/site.jsp" target="_blank" style="color: #FFFFFF;">Sitemap</a> &nbsp;&nbsp;&nbsp;
-                <a href="#commission" style="color: #FFFFFF;" >Skip Content</a>
-            </td>
-            <td align="right" style="padding: 5px;">
-                <table cellpadding="3" cellspacing="0" border="0">
-                    <tr>
-                        <td bgcolor="#FFFFFF" style="border: 1px solid #CCCCCC; text-align: center; font-family: sans-serif; font-size: 14px; padding: 2px 5px; color: #0000FF;">A+</td>
-                        <td width="5"></td>
-                        <td bgcolor="#FFFFFF" style="border: 1px solid #CCCCCC; text-align: center; font-family: sans-serif; font-size: 14px; padding: 2px 5px; color: #0000FF;">A</td>
-                        <td width="5"></td>
-                        <td bgcolor="#FFFFFF" style="border: 1px solid #CCCCCC; text-align: center; font-family: sans-serif; font-size: 14px; padding: 2px 5px; color: #0000FF;">A-</td>
-                        <td width="5"></td>
-                        <td bgcolor="#000000" style="border: 1px solid #CCCCCC; text-align: center; font-family: sans-serif; font-size: 14px; padding: 2px 5px; color: #FFFFFF;">A</td>
-                        <td width="5"></td>
-                        <td bgcolor="#808080" style="border: 1px solid #CCCCCC; text-align: center; font-family: sans-serif; font-size: 14px; padding: 2px 5px; color: #FFFFFF;">A</td>
-                        <td width="5"></td> <td bgcolor="#FFFFFF" style="border: 1px solid #CCCCCC;">
-                            <img src="disability.png" alt="Accessibility Icon" width="20" height="20" style="display: block;">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+
+<center>
+<div class="form-container">
+  <h1>Form 1</h1>
+  <form>
+    <table>
+      <tr>
+        <td><label for="fname">First Name :</label></td>
+        <td><input type="text" id="fname" name="fname"></td>
+      </tr>
+      <tr>
+        <td><label for="lname">Last Name :</label></td>
+        <td><input type="text" id="lname" name="lname"></td>
+      </tr>
+      <tr>
+        <td><label for="dob">Date of Birth :</label></td>
+        <td><input type="text" id="dob" name="dob"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email id :</label></td>
+        <td><input type="email" id="email" name="email"></td>
+      </tr>
+      <tr>
+        <td><label for="mobile">Mobile Number :</label></td>
+        <td><input type="text" id="mobile" name="mobile"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="SUBMIT">
+          <input type="reset" value="RESET">
+        </td>
+      </tr>
     </table>
+  </form>
+</div>
+</center>
 
-    
+<hr>
 
-<!-------------- logo and header -------------------->
-
-
-
-    <table width="100%" cellpadding="10" cellspacing="0" border="0">
+<center>
+<div class="form-container">
+  <h2>Form 2</h2>
+  <form action="#" method="post">
+    <table border="1">
+      <thead>
         <tr>
-            <td align="center">
-                <img src="TSPSC_Logo.jpg" alt="Telangana PSC Logo" width="100" height="100">
-            </td>
-            <td align="left">
-                <h1>TELANGANA PUBLIC SERVICE COMMISSION</h1>
-            </td>
+          <th>Name</th>
+          <th>Value</th>
         </tr>
-    </table>
-
-<!-- navigation bar -->
-
-     <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1E90FF">
+      </thead>
+      <tbody>
         <tr>
-            <td align="left" style="padding: 0px;">
-                <table cellpadding="10" cellspacing="0" border="0">
-                    <tr>
-                        <td bgcolor="#2E5D9C">
-                            <a href="#" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">Home</a>
-                        </td>
-
-                        <td>
-                            <a href="https://websitenew.tspsc.gov.in/Historycms" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">History</a>
-                        </td>
-
-                        <td>
-                            <a href="#" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">Organization</a>
-                        </td>
-
-                        <td>
-                            <a href="https://websitenew.tspsc.gov.in/SyllabusCMS" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">Scheme & Syllabus</a>
-                        </td>
-
-                        <td>
-                            <a href="https://websitenew.tspsc.gov.in/RTIcmsStatic" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">RTI Act</a>
-                        </td>
-
-                        <td>
-                            <a href="https://websitenew.tspsc.gov.in/DeptTstBlltncmsStatic" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">Departmental Test Bulletin</a>
-                        </td>
-
-                        <td>
-                            <a href="https://websitenew.tspsc.gov.in/contactUs.jsp" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; padding: 0 10px;">Contact Us</a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+          <td>Name</td>
+          <td><input type="text" name="user_name"></td>
         </tr>
-    </table>
-
-
-<!-------photo scrolling and one time Registration-------->
-
-
-
- <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-            <td width="70%" valign="top" loop="infinite" style="overflow: hidden;">
-                <marquee behavior="scroll" direction="left" behavior="scroll">
-                    <img src="tspsc_slider1.jpg" alt="Telangana State Public Service Commission Building 1" width="76%" height="auto" >
-                    <img src="tspsc_slider2.jpg" alt="Telangana State Public Service Commission Building 2" width="76%" height="auto" >
-                    <img src="tspsc-banner-1.png" alt="Telangana State Public Service Commission Building 3" width="76%" height="auto">
-                </marquee>
-            </td>
-
-            <td width="30%" valign="top">
-                <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                    <tr>
-                        <td bgcolor="#6B8E23" style="padding: 15px; border-bottom: 1px solid #556B2F;">
-                            <a href="https://otr.tgpsc.gov.in/login?type=new" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 20px;">
-                                <img src="pencil.jpg" alt="Icon" width="30" height="30" style="vertical-align: middle; margin-right: 10px;">
-                                One Time Registration
-                            </a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td bgcolor="#4682B4" style="padding: 15px; border-bottom: 1px solid #36648B;">
-                            <a href="https://otr.tgpsc.gov.in/login?type=edit" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 20px;">
-                                <img src="pencil.jpg" alt="Icon" width="30" height="30" style="vertical-align: middle; margin-right: 10px;">
-                                Edit One - Time Registration
-                            </a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td bgcolor="#4682B4" style="padding: 15px; border-bottom: 1px solid #36648B;">
-                            <a href="https://websitenew.tspsc.gov.in/notifications" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 20px;">
-                                <img src="notification.png" alt="Icon" width="30" height="30" style="vertical-align: middle; margin-right: 10px;">
-                                Notifications
-                            </a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td bgcolor="#4682B4" style="padding: 15px; border-bottom: 1px solid #36648B;">
-                            <a href="https://websitenew.tspsc.gov.in/selectionListAll" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 20px;">
-                                <img src="notification.png" alt="Icon" width="30" height="30" style="vertical-align: middle; margin-right: 10px;">
-                                Selection List
-                            </a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td bgcolor="#4682B4" style="padding: 15px;">
-                            <a href="https://websitenew.tspsc.gov.in/resukeyomr.jsp" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 20px;">
-                                <img src="notification.png" alt="Icon" width="30" height="30" style="vertical-align: middle; margin-right: 10px;">
-                                Results , Keys & OMR Downloads
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+          <td>Sex</td>
+          <td>
+            <input type="radio" id="sex_male" name="sex" value="male">
+            <label for="sex_male">Male</label><br>
+            <input type="radio" id="sex_female" name="sex" value="female">
+            <label for="sex_female">Female</label>
+          </td>
         </tr>
-    </table>
-
-
-    <!-----------body of the COMMISSION and the whats new and the CANDIDATE SERVICES will be avalible here-------------->
-
- <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 20px;">
-    <section id="commission">
         <tr>
-            <td width="33%" valign="top">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 10px;">
-                    <tr>
-                        <td bgcolor="#336699" style="color: #FFFFFF; font-family: sans-serif; font-size: 18px; font-weight: bold; padding: 15px; text-align: center;">
-                            COMMISSION
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#E0E0E0" style="padding: 0;">
-                            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/preview/UFJFU1NOT1RFL2NvbXBvc2l0aW9uX29mX2NvbW1pc3Npb24ucGRmr95v17a0y2d8i13v" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Present Commission
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/chairmanMessageNew.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Chairman's Message
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/chairmanMessageNew.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Secretary and Senior Officers of TGPSC
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/preview/UFJFU1NOT1RFL0ZPUk1FUi1DT01NSVNTSU9OLVRTUFNDX04yMDI0MDMxMTE3MjczOC5wZGY=r95v17a0y2d8i13v" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Former Chairmen/Members
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/Functions.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Functions
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/RulesofProcedure.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Rules of Procedure
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/Constiprovisionncms" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Constitutional Provisions
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/Regulation.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Regulations
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/psc.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            UPSC / Other PSCs
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="https://websitenew.tspsc.gov.in/othlink.jsp" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Other Important Links
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="https://websitenew.tspsc.gov.in/login" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="notification.png" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Official Login(for office use only)
-                                        </a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-top: 20px;">
-                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td bgcolor="#336699" style="padding: 15px; text-align: center;">
-                                        <a href="#" style="text-decoration: none; color: #FFFFFF; font-family: sans-serif; font-size: 16px; font-weight: bold;">TELANGANA MAP</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 10px; text-align: center;">
-                                        <img src="TelanganaTourismMapnew.png" alt="Telangana Map" width="300" height="300">
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-            <td width="33%" valign="top">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 10px;">
-                    <tr>
-                        <td bgcolor="#336699" style="color: #FFFFFF; font-family: sans-serif; font-size: 18px; font-weight: bold; padding: 15px;">
-                            WHAT'S NEW
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#E0E0E0" style="padding: 0;">
-                            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            GROUP-II SERVICES RECRUITMENT - NOTIFICATION NO.28/2022 - DAY-WISE SCHEDULE FOR CERTIFICATES VERIFICATION - WEB NOTIFICATION.
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            GROUP-II SERVICES RECRUITMENT - NOTIFICATION NO.28/2022 - DAY-WISE SCHEDULE OF MEDICAL EXAMINATION FOR ASSESSMENT OF DISABILITY OF PWD CANDIDATES - WEB NOTIFICATION
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            GROUP-II SERVICES RECRUITMENT - NOTIFICATION NO.28/2022 - CERTIFICATES VERIFICATION MATERIAL.
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            GROUP-II SERVICES RECRUITMENT - NOTIFICATION NO.28/2022 - SCHEDULE OF CERTIFICATES VERIFICATION - WEB NOTE.
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            GROUP-II SERVICES RECRUITMENT - NOTIFICATION NO.28/2022 - SCHEDULE OF CERTIFICATES VERIFICATION - NOTIFICATION.
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            WOMEN AND CHILD WELFARE OFFICER ( INCLUDING CHILD DEVELOPMENT PROJECT OFFICER , ICDS , ADDITIONAL CHILD DEVELOPMENT PROJECT OFFICER , ICDS AND MANAGER OF WAREHOUSE ) IN WOMEN DEVELOPMENT AND CHILD WELFARE DEPARTMENT - NOTIFICATION NO.13/2022 - PROVISIONAL SELECTION LIST WEB NOTE
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            WOMEN AND CHILD WELFARE OFFICER ( INCLUDING CHILD DEVELOPMENT PROJECT OFFICER , ICDS , ADDITIONAL CHILD DEVELOPMENT PROJECT OFFICER , ICDS AND MANAGER OF WAREHOUSE ) IN WOMEN DEVELOPMENT AND CHILD WELFARE DEPARTMENT - NOTIFICATION NO.13/2022 - PROVISIONAL SELECTION
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <span style="display: inline-block; width: 10px; height: 10px; background: #FFFFFF; vertical-align: middle; margin-right: 8px; border: 1px solid #000000;"></span>
-                                            DEPARTMENTAL TESTS-MAY 2025 SESSION-TIME TABLE
-                                        </a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-            <td width="33%" valign="top">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 10px;">
-                    <tr>
-                        <td bgcolor="#336699" style="color: #FFFFFF; font-family: sans-serif; font-size: 18px; font-weight: bold; padding: 15px; text-align: center;">
-                            CANDIDATE SERVICES
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#E0E0E0" style="padding: 0;">
-                            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Know Your TGPSC ID
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Know Your Hall-Ticket Number
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #FF0000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Download Submitted Application
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Notifications for All Recruitments
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Syllabus
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Departmental Examinations
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Results
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Half Yearly Examination
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            RIMC
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Old Question Papers
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Important Recruitment G.O.s / Instructions
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="border-bottom: 1px solid #CCCCCC;">
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Certificate Formats for Download
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                            <img src="pencil.jpg" alt="Icon" width="20" height="20" style="vertical-align: middle; margin-right: 8px;">
-                                            Verification of Certificates
-                                        </a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-top: 20px;">
-                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td bgcolor="#336699" style="color: #FFFFFF; font-family: sans-serif; font-size: 18px; font-weight: bold; padding: 15px; text-align: center;">
-                                        COMPLAINTS
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#E0E0E0" style="padding: 10px; text-align: center;">
-                                        <p style="margin: 0; font-family: sans-serif; font-size: 14px; color: #000000;">vigilance@tspsc.gov.in</p>
-                                        <p style="margin: 5px 0 0 0; font-family: sans-serif; font-size: 14px; color: #000000;">Vigilance Cell Number : 9966700339</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-top: 20px;">
-                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td bgcolor="#336699" style="color: #FFFFFF; font-family: sans-serif; font-size: 18px; font-weight: bold; padding: 15px; text-align: center;">
-                                        QUICK LINKS
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#E0E0E0" style="padding: 0;">
-                                        <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                                            <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #000000; font-family: sans-serif; font-size: 14px; display: block; padding: 5px 0;">
-                                                        <img src="tick.png" alt="Tick Icon" width="15" height="15" style="vertical-align: middle; margin-right: 8px;">
-                                                        Selected Candidates Marks
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+          <td>Eye color</td>
+          <td>
+            <select name="eye_color">
+              <option value="green">green</option>
+              <option value="blue">blue</option>
+              <option value="brown">brown</option>
+            </select>
+          </td>
         </tr>
+        <tr>
+          <td>Check all that apply</td>
+          <td>
+            <input type="checkbox" id="over_6_feet" name="attributes" value="over_6_feet_tall">
+            <label for="over_6_feet">Over 6 feet tall</label><br>
+            <input type="checkbox" id="over_200_pounds" name="attributes" value="over_200_pounds">
+            <label for="over_200_pounds">Over 200 pounds</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Describe your athletic ability:</td>
+          <td>
+            <textarea name="athletic_ability" rows="5" cols="40"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center;">
+            <input type="submit" value="Enter my information">
+          </td>
+        </tr>
+      </tbody>
     </table>
+  </form>
+</div>
+</center>
 
-    <div style="width: 100%; background-color: #1A497A; margin-top: 20px; padding: 20px 0;">
-        <table cellpadding="20" cellspacing="0" border="0" align="center" style="margin: 0 auto;">
-            <tr>
-                <td width="25%" valign="top" style="color: #FFFFFF; font-family: sans-serif; font-size: 14px; text-align: center;">
-                    <h3 style="color: #FFFFFF; font-family: sans-serif; font-size: 16px; margin-top: 0; margin-bottom: 10px;">TGPSC</h3>
-                    <p style="margin: 0;"><a href="#" style="color: #FFFFFF; text-decoration: underline;">Dr. E. Naveen Nicolas IAS</a></p>
-                    <p style="margin: 0;">Secretary</p>
-                    <p style="margin: 0;">Telangana Public Service</p>
-                    <p style="margin: 0;">Commission</p>
-                    <p style="margin: 0;">Prathibha Bhavan, M.J.Road,</p>
-                    <p style="margin: 0;">Nampally, Hyderabad-500001.</p>
-                    <p style="margin: 0;">Fax. No: 040-24747578</p>
-                    <p style="margin: 0;">Telephone No: 040-24747577</p>
+<hr>
+
+<center>
+<div class="form-container">
+  <h2>Form 3</h2>
+  <table style="width:100%; max-width:700px;">
+    <tr>
+      <td valign="top" style="width:220px;">
+        <img src="music.jpg" alt="Bring Your Music Along" width="220" height="350" style="display:block; margin:auto;"/>
+        <p style="text-align:center;">Bring Your Music Along</p>
+        <p style="text-align:center;">try Unlimited</p>
+        <p style="text-align:center;">$9.99 / Month</p>
+      </td>
+      <td valign="top">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+          <p>Full Name :<br>
+            <input type="text" name="full_name" placeholder="ex : Lindsey Wilson" size="30">
+          </p>
+          <p>Your Email :<br>
+            <input type="email" name="email" size="30">
+          </p>
+          <p>Password :<br>
+            <input type="password" name="password" size="30">
+          </p>
+          <p>Confirm Password :<br>
+            <input type="password" name="confirm_password" size="30">
+          </p>
+          <p>
+            <input type="checkbox" id="terms" name="terms" value="agree">
+            <label for="terms">By signing up, you agree to the<br>
+              <u style="color: blue;">Play Term of Service</u>
+            </label>
+          </p>
+          <p>
+            <input type="submit" value="Register">
+          </p>
+        </form>
+      </td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<hr>
+
+<center>
+<div class="form-container">
+  <h2>Form 4</h2>
+  <h1>Sign Up</h1>
+  <form action="#" method="post">
+    <table>
+      <tr>
+        <td align="left"><label for="first_name">First, Last Name*:</label></td>
+        <td style="padding-left:10px;">
+          <input type="text" id="first_name" name="first_name" size="15">
+          <input type="text" id="last_name" name="last_name" size="15">
+        </td>
+      </tr>
+      <tr>
+        <td align="left"><label for="organization">Organization:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="organization" name="organization" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="email_address">Email address*:</label></td>
+        <td style="padding-left:10px;"><input type="email" id="email_address" name="email_address" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="work_phone">Work Phone:</label></td>
+        <td style="padding-left:10px;"><input type="tel" id="work_phone" name="work_phone" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="home_phone">Home Phone:</label></td>
+        <td style="padding-left:10px;"><input type="tel" id="home_phone" name="home_phone" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="cell_phone">Cell Phone:</label></td>
+        <td style="padding-left:10px;"><input type="tel" id="cell_phone" name="cell_phone" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="fax">Fax:</label></td>
+        <td style="padding-left:10px;"><input type="tel" id="fax" name="fax" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="address1">Address 1*:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="address1" name="address1" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="address2">Address 2:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="address2" name="address2" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="city">City*:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="city" name="city" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="state_province">State Province:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="state_province" name="state_province" size="25"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="zip_postal_code">Zip Postal Code:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="zip_postal_code" name="zip_postal_code" size="15"></td>
+      </tr>
+      <tr>
+        <td align="left"><label for="country">Country*:</label></td>
+        <td style="padding-left:10px;"><input type="text" id="country" name="country" size="25"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="left">
+          <small>* - required fields</small>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+</center>
+
+<hr>
+
+<center>
+<div class="form-container">
+  <h2>Form 5</h2>
+  <table style="width:100%; max-width:700px;">
+    <tr>
+      <td valign="top" style="width:40%;">
+        <div class="info-section">
+          <h2>INFORMATION</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed. Diam volutpat commodo.</p>
+          <p>Eu ultrices: Vitae auctor eu augue ut. Malesuada nunc vel risus commodo viverra. Praesent elementum facilisis leo vel.</p>
+          <p>
+            <button type="button">Have An Account</button>
+          </p>
+        </div>
+      </td>
+      <td valign="top" style="width:60%;">
+        <div class="register-section">
+          <h2>REGISTER FORM</h2>
+          <form action="#" method="post">
+            <table>
+              <tr>
+                <td><label for="reg_first_name">First Name</label></td>
+                <td><label for="reg_last_name">Last Name</label></td>
+              </tr>
+              <tr>
+                <td><input type="text" id="reg_first_name" name="first_name" size="20"></td>
+                <td><input type="text" id="reg_last_name" name="last_name" size="20"></td>
+              </tr>
+              <tr>
+                <td colspan="2"><label for="reg_email">Your Email</label></td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="email" id="reg_email" name="email" size="45"></td>
+              </tr>
+              <tr>
+                <td><label for="reg_password">Password</label></td>
+                <td><label for="reg_confirm_password">Confirm Password</label></td>
+              </tr>
+              <tr>
+                <td><input type="password" id="reg_password" name="password" size="20"></td>
+                <td><input type="password" id="reg_confirm_password" name="confirm_password" size="20"></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="checkbox" id="agree_terms" name="agree_terms">
+                    <label for="agree_terms" style="color: white;"></label>
+                      I agree to the <b style="color: blue;">Terms and Conditions</b>
+                    </label>
                 </td>
-
-                <td width="25%" valign="top" style="color: #FFFFFF; font-family: sans-serif; font-size: 14px; text-align: center;">
-                    <h3 style="color: #FFFFFF; font-family: sans-serif; font-size: 16px; margin-top: 0; margin-bottom: 10px;">CALL CENTER</h3>
-                    <p style="margin: 0;">Telangana Public Service</p>
-                    <p style="margin: 0;">Commission For any Notification</p>
-                    <p style="margin: 0;">related issues Please Call Ph: 040-</p>
-                    <p style="margin: 0;">22445566 / 040-67445566 (Call</p>
-                    <p style="margin: 0;">Time : 10.30 AM to 5:00 PM on</p>
-                    <p style="margin: 0;">working days)</p>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">
+                  <input type="submit" value="Register">
                 </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+</center>
 
-                <td width="25%" valign="top" style="color: #FFFFFF; font-family: sans-serif; font-size: 14px; text-align: center;">
-                    <h3 style="color: #FFFFFF; font-family: sans-serif; font-size: 16px; margin-top: 0; margin-bottom: 10px;">TECHNICAL TEAM</h3>
-                    <p style="margin: 0;">For any doubts in Online</p>
-                    <p style="margin: 0;">submission and download of hall-</p>
-                    <p style="margin: 0;">tickets Call Ph : + 91 40 23542185 /</p>
-                    <p style="margin: 0;">23542187 (Call Time: 10:30 AM to</p>
-                    <p style="margin: 0;">5:00 PM) email to :</p>
-                    <p style="margin: 0;"><a href="mailto:helpdesk@tspsc.gov.in" style="color: #FFFFFF; text-decoration: underline;">helpdesk@tspsc.gov.in</a></p>
-                </td>
+<hr>
 
-                <td width="25%" valign="top" style="color: #FFFFFF; font-family: sans-serif; font-size: 14px; text-align: center;">
-                    <h3 style="color: #FFFFFF; font-family: sans-serif; font-size: 16px; margin-top: 0; margin-bottom: 10px;">PAYMENT RELATED</h3>
-                    <p style="margin: 0;">For any queries in Payment Gateway</p>
-                    <p style="margin: 0;">Call Toll Free Help line Number :</p>
-                    <p style="margin: 0;">022-2752 3816 Contact email ID :</p>
-                    <p style="margin: 0;"><a href="mailto:tspscpayments@gmail.com" style="color: #FFFFFF; text-decoration: underline;">tspscpayments@gmail.com</a></p>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000" style="margin-top: 20px; padding: 20px 0;">
-        <tr>
-            <td align="center" style="color: #FFFFFF; font-family: sans-serif; font-size: 14px;">
-                <p style="margin-bottom: 10px;">
-
-                    <p style="color: #FFFFFF;"><u>Hyperlinking Policy </u> &nbsp; &nbsp; &nbsp; <u>Privacy Policy </u> &nbsp; &nbsp; &nbsp; <u>  Security Policy  </u>  </p>
-
+<center>
+<div class="form-container">
+  <h2>Form 6</h2>
+  <table style="width:100%; max-width:700px;">
+    <tr>
+      <td align="center" valign="middle">
+        <table style="width:100%;">
+          <tr>
+            <td style="padding: 20px;">
+              <font color="#FF7043"><h2>Quick Contact</h2></font>
+              <p>Contact us today, and get reply within 24 hours !</p>
+              <form action="#" method="post">
+                <p>
+                  <input type="text" name="your_name" placeholder="Your name" size="50">
                 </p>
-                <hr style="border: none; border-top: 1px solid #333333; width: 80%; margin: 15px auto;">
-                <p style="margin-bottom: 10px;">2018 TGPSC, ALL RIGHTS RESERVED</p>
-                <p style="margin-bottom: 5px;">DESIGNED & DEVELOPED BY</p>
-                <img src="cgg_logo.png" alt="Centre for Good Governance Logo" width="300" height="50" style="display: block; margin: 0 auto 10px auto;">
-                <p style="margin-bottom: 10px;">Knowledge • Technology • People</p>
-                <p style="margin-bottom: 10px;">Version : 2.1.4</p>
-                <p style="margin: 0;">This site is best viewed in 1024 * 768 resolution with latest version of Chrome, Firefox, Safari and Internet Explorer</p>
+                <p>
+                  <input type="email" name="your_email" placeholder="Your Email Address" size="50">
+                </p>
+                <p>
+                  <input type="tel" name="your_phone" placeholder="Your Phone Number" size="50">
+                </p>
+                <p>
+                  <input type="text" name="your_website" placeholder="Your Web Site starts with http://" size="50">
+                </p>
+                <p>
+                  <textarea name="your_message" placeholder="Type your Message Here ...." rows="7" cols="47"></textarea>
+                </p>
+                <p>
+                  <input type="submit" value="Send Message">
+                </p>
+              </form>
             </td>
-        </tr>
-    </table>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+</center>
+
+<hr>
+
+<center>
+<div class="form-container">
+  <h2>Form 7</h2>
+  <table style="width:100%; max-width:700px;">
+    <tr>
+      <td align="center" valign="middle">
+        <table style="width:100%;">
+          <tr>
+            <td colspan="2">
+              <h2>Contact form</h2>
+              <p>Please fill in your information and we'll be sending your order in no time.</p>
+            </td>
+          </tr>
+          <tr>
+            <td align="right" width="30%"><label for="first_name7">Your Name</label></td>
+            <td>
+              <input type="text" id="first_name7" name="first_name" placeholder="First Name" size="20">
+              <input type="text" id="last_name7" name="last_name" placeholder="Last Name" size="20">
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><label for="email7">Your Email</label></td>
+            <td><input type="email" id="email7" name="email" placeholder="e.g. hello@contact.net" size="45"></td>
+          </tr>
+          <tr>
+            <td align="right"><label for="phone1">Phone*</label></td>
+            <td>
+              <input type="tel" id="phone1" name="phone1" size="5" placeholder="###"> -
+              <input type="tel" id="phone2" name="phone2" size="5" placeholder="###"> -
+              <input type="tel" id="phone3" name="phone3" size="5" placeholder="###">
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><label for="message_subject">Message Subject *</label></td>
+            <td>
+              <select id="message_subject" name="message_subject">
+                <option value="other">Other</option>
+                <option value="support">Support</option>
+                <option value="sales">Sales</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td align="right" valign="top"><label for="message7">Message *</label></td>
+            <td>
+              <textarea id="message7" name="message" rows="7" cols="47"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><label for="verification7">Verification *</label></td>
+            <td>
+              <input type="checkbox" id="verification7" name="verification">
+              <label for="verification7">I'm not a robot</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input type="submit" value="SUBMIT FORM">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+</center>
+
+</body>
+</html>
