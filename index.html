@@ -2,204 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PayOnline Portal</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammer Website Header</title>
+    <link rel="icon" type="image/png" href="assets/media/favicon/logo.png">
 </head>
 <body>
 
-<!-- Header Section -->
-<table width="100%" bgcolor="#F2FAFF">
-    <tr>
-        <td align="left">
-            <a href="#"><img src="assets/images/favicon.png" width="120"></a>
-        </td>
-        <td align="center">
-            <select>
-                <option>Book</option>
-                <option>Flights</option>
-                <option>Trains</option>
-                <option>Movies</option>
-                <option>Bus</option>
-            </select>
-            <select>
-                <option>Recharge</option>
-                <option>Mobile</option>
-                <option>DTH</option>
-                <option>FASTag</option>
-            </select>
-            <select>
-                <option>Services</option>
-                <option>Insurance</option>
-                <option>Loans</option>
-                <option>Credit Cards</option>
-            </select>
-            <select>
-                <option>About</option>
-                <option>Company</option>
-                <option>Contact</option>
-                <option>Careers</option>
-            </select>
-        </td>
-        <td align="right">
-            <img src="assets/images/download-button.png" width="30"> Download &nbsp;
-            <img src="assets/images/user.png" width="25"> Login
-        </td>
-    </tr>
-</table>
+    <!-- Top bar for "Free-Shipping PAN India" -->
+    <div style="background-color: #222; color: #fff; text-align: center; padding: 8px 0; font-size: 14px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+        Free-Shipping PAN India
+    </div>
 
-<!-- Quick Links -->
-<table width="100%" bgcolor="#E6F7FF">
-    <tr>
-        <td align="center">
-            <img src="assets/images/plain.svg" width="20"> <b>Flights</b> &nbsp;&nbsp;
-            <img src="assets/images/-bus.png" width="20"> <b>Bus</b> &nbsp;&nbsp;
-            <img src="assets/images/Train.png" width="20"> <b>Trains</b> &nbsp;&nbsp;
-            
-        </td>
-    </tr>
-</table>
+    <!-- Main Navigation Bar using a table for layout -->
+    <table style="background-color: #000; width: 100%; padding: 15px 40px; border-spacing: 0; border-collapse: collapse; border-radius: 8px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
+        <tr>
+            <!-- Table Cell for Logo -->
+            <td style="padding: 0 20px; vertical-align: middle; white-space: nowrap;">
+                <a href="#" style="font-size: 28px; font-weight: bold; color: #fff; text-decoration: none; padding: 5px 10px; border-radius: 6px; display: inline-block;">HAMMER</a>
+            </td>
 
-<!-- Booking Form -->
-<table align="center" width="90%" bgcolor="#FFFFFF" border="1" cellpadding="10">
-    <tr>
-        <td>
-            <b>Trip Type:</b>
-            <input type="radio" name="trip" checked> One Way
-            <input type="radio" name="trip"> Round Trip
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>From:</b> <input type="text" value="Delhi (DEL)">
-            &nbsp;&nbsp;
-            <b>To:</b> <input type="text" value="Mumbai (BOM)">
-            &nbsp;&nbsp;
-            <b>Depart:</b> <input type="date">
-            &nbsp;&nbsp;
-            <b>Return:</b> <input type="date">
-            &nbsp;&nbsp;
-            <b>Travellers:</b> <input type="number" min="1" value="1">
-            &nbsp;&nbsp;
-            <b>Class:</b>
-            <select>
-                <option>Economy</option>
-                <option>Business</option>
-            </select>
-            &nbsp;&nbsp;
-            <button>Find Tickets</button>
-        </td>
-    </tr>
-</table>
+            <!-- Table Cell for Navigation Links -->
+            <td style="padding: 0 20px; vertical-align: middle; width: 100%;">
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 30px;">
+                    <li style="display: inline-block; position: relative;">
+                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: flex; align-items: center;">Products </a>
+                    </li>
+                    <li style="display: inline-block; position: relative;">
+                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: flex; align-items: center;">Combos </a>
+                    </li>
+                    <li style="display: inline-block;">
+                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: inline-block;">Warranty Registration</a>
+                    </li>
+                    <li style="display: inline-block;">
+                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: inline-block;">Gifting With Hammer</a>
+                    </li>
+                    <li style="display: inline-block;">
+                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: inline-block;">Refurbished Products</a>
+                    </li>
+                </ul>
+            </td>
 
-<!-- Offers Section -->
-<table align="center" width="90%" bgcolor="#F9F9F9" cellpadding="10">
-    <tr>
-        <td>
-            <b>Special Offers:</b>
-            <ul>
-                <li>Student Discount: Up to ₹500 off</li>
-                <li>Senior Citizen: Extra 10% off</li>
-                <li>Armed Forces: Free Baggage</li>
-            </ul>
-        </td>
-        <td align="right">
-            <img src="assets/images/Ads1.avif" width="200">
-            <img src="assets/images/Ad2.avif" width="200">
-        </td>
-    </tr>
-</table>
+            <!-- Table Cell for Right-side Icons -->
+            <td style="padding: 0 20px; vertical-align: middle; white-space: nowrap;">
+                <div style="display: flex; gap: 25px;">
 
-<!-- Recharge & Bill Section -->
-<table align="center" width="90%" bgcolor="#F2FAFF" cellpadding="10">
-    <tr>
-        <td colspan="4" align="center"><b>Recharge & Pay Bills</b></td>
-    </tr>
-    <tr align="center">
-        <td>
-            <img src="assets/images/modile.avif" width="50"><br>Mobile
-        </td>
-        <td>
-            <img src="assets/images/fasttag.avif" width="50"><br>FASTag
-        </td>
-        <td>
-            <img src="assets/images/dth.png" width="50"><br>DTH
-        </td>
-        <td>
-            <img src="assets/images/bill.avif" width="50"><br>Electricity
-        </td>
-    </tr>
-</table>
+                    <!-- Search-like Icon (using Unicode, based on image) -->
+                    <span style="color: #fff; font-size: 22px; cursor: pointer; padding: 5px; border-radius: 50%; display: inline-block;">&#128270;</span>
+                    <!-- Shopping Bag Icon (using Unicode) -->
+                    <span style="color: #fff; font-size: 22px; cursor: pointer; padding: 5px; border-radius: 50%; display: inline-block;">&#128722;</span>
+                </div>
+            </td>
+        </tr>
+    </table>
 
-<!-- UPI Section -->
-<table align="center" width="90%" bgcolor="#FFFFFF" cellpadding="10">
-    <tr>
-        <td>
-            <img src="assets/images/logo_new.svg" width="100"><br>
-            <font size="6"><b>Pay Instantly with UPI</b></font><br>
-            Send or receive money securely from your bank account.<br>
-            <img src="assets/images/Appstore.avif" width="100">
-            <img src="assets/images/googlePlay.avif" width="100">
-        </td>
-        <td align="right">
-            <img src="assets/images/right image.avif" width="200">
-        </td>
-    </tr>
-</table>
+    <!-- Placeholder for the rest of the page content (black background) -->
+     <div style="height: 400px; background-color: #000; display: flex; justify-content: center; align-items: center; font-size: 24px; color: #555;">
+        <!-- Image added here -->
+        <img src="assets/media/images/watches.jpg" alt="Placeholder Image" style="width: 100%; height: 100%; border-radius: 8px; object-fit: cover;">
+        </div>
 
-<!-- Investment Section -->
-<table align="center" width="90%" bgcolor="#F2FAFF" cellpadding="10">
-    <tr>
-        <td>
-            <img src="assets/images/Paytm-money.webp" width="80"><br>
-            <font size="5"><b>Invest & Grow</b></font><br>
-            Buy stocks, mutual funds, and more.<br>
-            <button>Explore Investments</button>
-        </td>
-        <td align="right">
-            <img src="assets/images/Right-image2.avif" width="200">
-        </td>
-    </tr>
-</table>
 
-<!-- Business Section -->
-<table align="center" width="90%" bgcolor="#FFFFFF" cellpadding="10">
-    <tr>
-        <td>
-            <img src="assets/images/Paytm business.png" width="60"><br>
-            <font size="5"><b>Business Solutions</b></font><br>
-            Accept payments online & offline.<br>
-            <button>Learn More</button>
-        </td>
-        <td align="right">
-            <img src="assets/images/Scaners.avif" width="200">
-        </td>
-    </tr>
-</table>
 
-<!-- Support Section -->
-<table align="center" width="90%" bgcolor="#1E2B5E">
-    <tr>
-        <td align="center">
-            <img src="assets/images/paytmupi.png" width="30">
-            <font color="white" size="4"><b>24/7 Customer Support</b></font>
-            <button>Contact Us</button>
-        </td>
-    </tr>
-</table>
+          <!-- Top Selling Section -->
+    <div style="text-align: center; padding: 40px 20px; background-color: #f8f8f8; color: #333; font-family: 'Inter', sans-serif;">
+        <h2 style="font-size: 32px; margin-bottom: 30px; font-weight: bold;">Top Selling</h2>
 
-<!-- Footer -->
-<table width="100%" bgcolor="#F2FAFF">
-    <tr>
-        <td align="center">
-            <img src="assets/images/facebook.svg" width="25">
-            <img src="assets/images/twitter.svg" width="25">
-            <img src="assets/images/youtube.svg" width="25">
-            <img src="assets/images/linkedin.svg" width="25">
-            <img src="assets/images/instagram.svg" width="25"><br>
-            <font size="3">© 2025 PayOnline Portal. All Rights Reserved.</font>
-        </td>
-    </tr>
-</table>
+        <table style="width: 100%; max-width: 1200px; margin: 0 auto; border-spacing: 20px; border-collapse: separate;">
+            <tr>
+                <!-- Product Card 1: AIRFLOW PLUS -->
+                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
+                    <div style="background-color: #5cb85c; color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">Hot Seller</div>
+                    <img src="assets/media/images/air folow.avif" alt="AIRFLOW PLUS" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
+                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">AIRFLOW PLUS</div>
+                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
+                        <span style="font-weight: bold;">Rs. 699.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 4,999.00</span>
+                    </div>
+                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
+                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(122)</span>
+                    </div>
+                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">13mm Drivers | Bluetooth v5.1</div>
+                    <a href="#" style="background-color: #5cb85c; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
+                </td>
+
+                <!-- Product Card 2: ACE 2 -->
+                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
+                    <div style="background-color: #5cb85c; color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">Hot Seller</div>
+                    <img src="assets/media/images/ace 2.avif" alt="ACE 2" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
+                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">ACE 2</div>
+                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
+                        <span style="font-weight: bold;">Rs. 1,299.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 3,999.00</span>
+                    </div>
+                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
+                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(53)</span>
+                    </div>
+                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">BT Calling | 1.83" TFT Display</div>
+                    <a href="#" style="background-color: #5cb85c; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
+                </td>
+
+                <!-- Product Card 3: BASH 2.0 -->
+                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
+                    <div style="background-color: #5cb85c; color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">Hot Seller</div>
+                    <img src="assets/media/images/bash.avif" alt="BASH 2.0" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
+                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">BASH 2.0</div>
+                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
+                        <span style="font-weight: bold;">Rs. 1,999.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 8,245.00</span>
+                    </div>
+                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
+                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(97)</span>
+                    </div>
+                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">Wireless 40mm Sound Drivers</div>
+                    <a href="#" style="background-color: #5cb85c; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
+                </td>
+
+                <!-- Product Card 4: 65W GAN CHARGER -->
+                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
+                    <div style="background-color: #ffc107; color: #333; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">New Launch</div>
+                    <img src="assets/media/images/65W.avif" alt="65W GAN CHARGER" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
+                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">65W GAN CHARGER</div>
+                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
+                        <span style="font-weight: bold;">Rs. 1,799.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 7,999.00</span>
+                    </div>
+                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
+                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(8)</span>
+                    </div>
+                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">65W Output | Fast Charging</div>
+                    <a href="#" style="background-color: #ffc107; color: #333; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
