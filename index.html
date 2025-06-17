@@ -3,134 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hammer Website Header</title>
-    <link rel="icon" type="image/png" href="assets/media/favicon/logo.png">
+    <title>FlexBox Layout</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Header Section: Contains the navigation bar with logo and nav links -->
+    <header id="navbar">
+        <div class="logo"></div>
+        <nav class="nav-links"></nav>
+    </header>
 
-    <!-- Top bar for "Free-Shipping PAN India" -->
-    <div style="background-color: #222; color: #fff; text-align: center; padding: 8px 0; font-size: 14px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
-        Free-Shipping PAN India
-    </div>
-
-    <!-- Main Navigation Bar using a table for layout -->
-    <table style="background-color: #000; width: 100%; padding: 15px 40px; border-spacing: 0; border-collapse: collapse; border-radius: 8px; margin: 10px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
-        <tr>
-            <!-- Table Cell for Logo -->
-            <td style="padding: 0 20px; vertical-align: middle; white-space: nowrap;">
-                <a href="#" style="font-size: 28px; font-weight: bold; color: #fff; text-decoration: none; padding: 5px 10px; border-radius: 6px; display: inline-block;">HAMMER</a>
-            </td>
-
-            <!-- Table Cell for Navigation Links -->
-            <td style="padding: 0 20px; vertical-align: middle; width: 100%;">
-                <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 30px;">
-                    <li style="display: inline-block; position: relative;">
-                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: flex; align-items: center;">Products </a>
-                    </li>
-                    <li style="display: inline-block; position: relative;">
-                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: flex; align-items: center;">Combos </a>
-                    </li>
-                    <li style="display: inline-block;">
-                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: inline-block;">Warranty Registration</a>
-                    </li>
-                    <li style="display: inline-block;">
-                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: inline-block;">Gifting With Hammer</a>
-                    </li>
-                    <li style="display: inline-block;">
-                        <a href="#" style="color: #fff; text-decoration: none; font-size: 16px; padding: 10px 0; display: inline-block;">Refurbished Products</a>
-                    </li>
-                </ul>
-            </td>
-
-            <!-- Table Cell for Right-side Icons -->
-            <td style="padding: 0 20px; vertical-align: middle; white-space: nowrap;">
-                <div style="display: flex; gap: 25px;">
-
-                    <!-- Search-like Icon (using Unicode, based on image) -->
-                    <span style="color: #fff; font-size: 22px; cursor: pointer; padding: 5px; border-radius: 50%; display: inline-block;">&#128270;</span>
-                    <!-- Shopping Bag Icon (using Unicode) -->
-                    <span style="color: #fff; font-size: 22px; cursor: pointer; padding: 5px; border-radius: 50%; display: inline-block;">&#128722;</span>
-                </div>
-            </td>
-        </tr>
-    </table>
-
-    <!-- Placeholder for the rest of the page content (black background) -->
-     <div style="height: 400px; background-color: #000; display: flex; justify-content: center; align-items: center; font-size: 24px; color: #555;">
-        <!-- Image added here -->
-        <img src="assets/media/images/watches.jpg" alt="Placeholder Image" style="width: 100%; height: 100%; border-radius: 8px; object-fit: cover;">
+    <!-- Services Section: Displays "What We Do" items -->
+    <section id="services-section" class="section-padding section-margin-bottom grey-border">
+        <!-- Section Title Placeholder -->
+        <div class="section-title"></div>
+        <!-- Container for service items, using flexbox for layout -->
+        <div class="item-container">
+            <!-- Individual Service Item -->
+            <div class="section-item">
+                <!-- Circular placeholder for icon/image -->
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <!-- Block placeholders for text content -->
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+            </div>
+            <!-- Repeat for second service item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+            </div>
+            <!-- Repeat for third service item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+            </div>
         </div>
+    </section>
 
+    <!-- Points of Sale Section: Displays location/sale points -->
+    <section id="points-of-sale-section" class="section-padding section-margin-bottom grey-border">
+        <div class="section-title"></div>
+        <!-- Container for points of sale items -->
+        <div class="item-container">
+            <!-- Individual Point of Sale Item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+            </div>
+            <!-- Repeat for second point of sale item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+            </div>
+            <!-- Repeat for third point of sale item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Pricing Tables Section: Displays different pricing plans -->
+    <section id="pricing-tables-section" class="section-padding section-margin-bottom grey-border">
+        <div class="section-title"></div>
+        <!-- Container for pricing table items -->
+        <div class="item-container">
+            <!-- Individual Pricing Table Item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <!-- Placeholder for price display -->
+                <div class="price-box"></div>
+                <!-- Placeholder for call-to-action button -->
+                <div class="button-box"></div>
+            </div>
+            <!-- "Most Popular" Pricing Table Item -->
+            <div class="section-item popular">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="price-box"></div>
+                <div class="button-box"></div>
+            </div>
+            <!-- Repeat for third pricing table item -->
+            <div class="section-item">
+                <div class="circle-placeholder h-60px w-60px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="block-placeholder w-80p h-15px"></div>
+                <div class="price-box"></div>
+                <div class="button-box"></div>
+            </div>
+        </div>
+    </section>
 
-          <!-- Top Selling Section -->
-    <div style="text-align: center; padding: 40px 20px; background-color: #f8f8f8; color: #333; font-family: 'Inter', sans-serif;">
-        <h2 style="font-size: 32px; margin-bottom: 30px; font-weight: bold;">Top Selling</h2>
+    <!-- Testimonials Section: Displays client feedback -->
+    <section id="testimonials-section" class="section-padding section-margin-bottom grey-border">
+        <div class="section-title"></div>
+        <!-- Container for testimonial items -->
+        <div class="item-container">
+            <!-- Individual Testimonial Item -->
+            <div class="section-item">
+                <!-- Placeholder for quote text -->
+                <div class="quote-box"></div>
+                <!-- Container for author name and image -->
+                <div class="author-info">
+                    <div class="block-placeholder w-120px h-12px"></div>
+                    <div class="circle-placeholder h-30px w-30px"></div>
+                </div>
+            </div>
+            <!-- Repeat for second testimonial item -->
+            <div class="section-item">
+                <div class="quote-box"></div>
+                <div class="author-info">
+                    <div class="block-placeholder w-120px h-12px"></div>
+                    <div class="circle-placeholder h-30px w-30px"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination dots for testimonials carousel -->
+        <div class="pagination">
+            <div class="dot active"></div> <!-- Active dot -->
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
 
-        <table style="width: 100%; max-width: 1200px; margin: 0 auto; border-spacing: 20px; border-collapse: separate;">
-            <tr>
-                <!-- Product Card 1: AIRFLOW PLUS -->
-                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
-                    <div style="background-color: #5cb85c; color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">Hot Seller</div>
-                    <img src="assets/media/images/air folow.avif" alt="AIRFLOW PLUS" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
-                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">AIRFLOW PLUS</div>
-                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
-                        <span style="font-weight: bold;">Rs. 699.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 4,999.00</span>
-                    </div>
-                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
-                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(122)</span>
-                    </div>
-                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">13mm Drivers | Bluetooth v5.1</div>
-                    <a href="#" style="background-color: #5cb85c; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
-                </td>
+    <!-- Clients Section: Displays client logos -->
+    <section id="clients-section" class="section-padding section-margin-bottom grey-border">
+        <div class="section-title"></div>
+        <!-- Container for client logos -->
+        <div class="item-container clients-logos">
+            <!-- Placeholder for individual client logo -->
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+        </div>
+    </section>
 
-                <!-- Product Card 2: ACE 2 -->
-                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
-                    <div style="background-color: #5cb85c; color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">Hot Seller</div>
-                    <img src="assets/media/images/ace 2.avif" alt="ACE 2" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
-                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">ACE 2</div>
-                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
-                        <span style="font-weight: bold;">Rs. 1,299.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 3,999.00</span>
-                    </div>
-                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
-                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(53)</span>
-                    </div>
-                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">BT Calling | 1.83" TFT Display</div>
-                    <a href="#" style="background-color: #5cb85c; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
-                </td>
-
-                <!-- Product Card 3: BASH 2.0 -->
-                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
-                    <div style="background-color: #5cb85c; color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">Hot Seller</div>
-                    <img src="assets/media/images/bash.avif" alt="BASH 2.0" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
-                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">BASH 2.0</div>
-                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
-                        <span style="font-weight: bold;">Rs. 1,999.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 8,245.00</span>
-                    </div>
-                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
-                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(97)</span>
-                    </div>
-                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">Wireless 40mm Sound Drivers</div>
-                    <a href="#" style="background-color: #5cb85c; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
-                </td>
-
-                <!-- Product Card 4: 65W GAN CHARGER -->
-                <td style="width: 25%; vertical-align: top; padding: 15px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); text-align: center; position: relative;">
-                    <div style="background-color: #ffc107; color: #333; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; position: absolute; top: 15px; left: 15px;">New Launch</div>
-                    <img src="assets/media/images/65W.avif" alt="65W GAN CHARGER" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
-                    <div style="font-size: 18px; font-weight: bold; margin-bottom: 5px; color: #333;">65W GAN CHARGER</div>
-                    <div style="font-size: 16px; margin-bottom: 10px; color: #333;">
-                        <span style="font-weight: bold;">Rs. 1,799.00</span> <span style="text-decoration: line-through; color: #888;">Rs. 7,999.00</span>
-                    </div>
-                    <div style="color: #FFD700; font-size: 18px; margin-bottom: 5px;">
-                        &#9733;&#9733;&#9733;&#9733;&#9733; <span style="font-size: 14px; color: #888;">(8)</span>
-                    </div>
-                    <div style="font-size: 14px; color: #555; margin-bottom: 20px;">65W Output | Fast Charging</div>
-                    <a href="#" style="background-color: #ffc107; color: #333; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">BUY IT NOW</a>
-                </td>
-            </tr>
-        </table>
-    </div>
-
+    <!-- Footer Section: Contains footer navigation and social icons -->
+    <footer id="footer" class="dark-grey-footer-bg text-white">
+        <!-- Top part of the footer with logo and search box -->
+        <div class="footer-top">
+            <div class="footer-logo"></div>
+            <div class="search-box"></div>
+        </div>
+        <!-- Bottom part of the footer with copyright and social icons -->
+        <div class="footer-bottom">
+            <!-- Placeholder for copyright/text -->
+            <div class="block-placeholder w-250px h-15px" style="background-color: #d3d3d3;"></div>
+            <!-- Container for social media icons -->
+            <div class="social-icons">
+                <!-- Placeholder for individual social icon -->
+                <div class="icon-placeholder"></div>
+                <div class="icon-placeholder"></div>
+                <div class="icon-placeholder"></div>
+                <div class="icon-placeholder"></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
