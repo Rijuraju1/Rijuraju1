@@ -3,177 +3,488 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexBox Layout</title>
+    <title>Beatkit - Let's Play the Beat and Dance</title>
+    <!-- Linking the CSS file -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section: Contains the navigation bar with logo and nav links -->
-    <header id="navbar">
-        <div class="logo"></div>
-        <nav class="nav-links"></nav>
+
+
+    <!-- Main header section -->
+    <header class="main-header">
+        <div class="container header-container">
+            <!-- Logo section -->
+            <div class="logo">
+                <img src="assets/images/Logo-kit.png" alt="Beatkit Logo">
+            </div>
+
+            <!-- Navigation menu -->
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">About Us <i class="fas fa-chevron-down"></i></a>
+                        <!-- Dropdown content placeholder -->
+                        <div class="dropdown-content">
+                            <a href="#">Our Story</a>
+                            <a href="#">Team</a>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav-link">Tour</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Album <i class="fas fa-chevron-down"></i></a>
+                        <!-- Dropdown content placeholder -->
+                        <div class="dropdown-content">
+                            <a href="#">Latest Album</a>
+                            <a href="#">Discography</a>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Page <i class="fas fa-chevron-down"></i></a>
+                        <!-- Dropdown content placeholder -->
+                        <div class="dropdown-content">
+                            <a href="#">FAQ</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Header icons section -->
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-play-circle"></i></a>
+                <a href="#"><i class="fas fa-music"></i></a>
+                <a href="#"><i class="fas fa-sliders-h"></i></a>
+                <a href="#"><i class="fas fa-volume-up"></i></a>
+            </div>
+        </div>
     </header>
 
-    <!-- Services Section: Displays "What We Do" items -->
-    <section id="services-section" class="section-padding section-margin-bottom grey-border">
-        <!-- Section Title Placeholder -->
-        <div class="section-title"></div>
-        <!-- Container for service items, using flexbox for layout -->
-        <div class="item-container">
-            <!-- Individual Service Item -->
-            <div class="section-item">
-                <!-- Circular placeholder for icon/image -->
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <!-- Block placeholders for text content -->
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-            </div>
-            <!-- Repeat for second service item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-            </div>
-            <!-- Repeat for third service item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Points of Sale Section: Displays location/sale points -->
-    <section id="points-of-sale-section" class="section-padding section-margin-bottom grey-border">
-        <div class="section-title"></div>
-        <!-- Container for points of sale items -->
-        <div class="item-container">
-            <!-- Individual Point of Sale Item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-            </div>
-            <!-- Repeat for second point of sale item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-            </div>
-            <!-- Repeat for third point of sale item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Tables Section: Displays different pricing plans -->
-    <section id="pricing-tables-section" class="section-padding section-margin-bottom grey-border">
-        <div class="section-title"></div>
-        <!-- Container for pricing table items -->
-        <div class="item-container">
-            <!-- Individual Pricing Table Item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <!-- Placeholder for price display -->
-                <div class="price-box"></div>
-                <!-- Placeholder for call-to-action button -->
-                <div class="button-box"></div>
-            </div>
-            <!-- "Most Popular" Pricing Table Item -->
-            <div class="section-item popular">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="price-box"></div>
-                <div class="button-box"></div>
-            </div>
-            <!-- Repeat for third pricing table item -->
-            <div class="section-item">
-                <div class="circle-placeholder h-60px w-60px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="block-placeholder w-80p h-15px"></div>
-                <div class="price-box"></div>
-                <div class="button-box"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section: Displays client feedback -->
-    <section id="testimonials-section" class="section-padding section-margin-bottom grey-border">
-        <div class="section-title"></div>
-        <!-- Container for testimonial items -->
-        <div class="item-container">
-            <!-- Individual Testimonial Item -->
-            <div class="section-item">
-                <!-- Placeholder for quote text -->
-                <div class="quote-box"></div>
-                <!-- Container for author name and image -->
-                <div class="author-info">
-                    <div class="block-placeholder w-120px h-12px"></div>
-                    <div class="circle-placeholder h-30px w-30px"></div>
+    <!-- Hero section -->
+    <section id="hero-section" class="hero-section">
+        <div class="container hero-content">
+            <!-- Left content area -->
+            <div class="hero-text">
+                <p class="welcome-text">WELCOME</p>
+                <h1>Let's Play the Beat and Dance</h1>
+                <p class="album-info">A new album has been released this month with a new style</p>
+                <p class="available-on">AVAILABLE ON</p>
+                <!-- Platform icons -->
+                <div class="platform-icons">
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fab fa-apple"></i></a>
+                    <a href="#"><i class="fab fa-soundcloud"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
+                <!-- Discover More Button -->
+                <button class="btn-discover-more">Discover more</button>
             </div>
-            <!-- Repeat for second testimonial item -->
-            <div class="section-item">
-                <div class="quote-box"></div>
-                <div class="author-info">
-                    <div class="block-placeholder w-120px h-12px"></div>
-                    <div class="circle-placeholder h-30px w-30px"></div>
+            <!-- Right image area (could be a dynamic image or illustration) -->
+            <div class="hero-image">
+                <!-- Placeholder image for the man with headphones -->
+                <img src="assets/images/header.png" alt="Man with Headphones">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours & Events Section -->
+    <section id="tours-events-section" class="tours-events-section">
+        <div class="container">
+            <h2 class="section-title">TOURS & EVENTS</h2>
+            <div class="event-cards-container">
+                <!-- Event Card 1 -->
+                <div class="event-card">
+                    <h3>Jakarta Music Fest</h3>
+                    <p class="event-date-location">21 April 2021 , Jakarta</p>
+                    <a href="#" class="learn-more-link">Learn more &rarr;</a>
+                </div>
+                <!-- Event Card 2 -->
+                <div class="event-card">
+                    <h3>Bali Electro Music</h3>
+                    <p class="event-date-location">26 April 2021 , Bali</p>
+                    <a href="#" class="learn-more-link">Learn more &rarr;</a>
+                </div>
+                <!-- Event Card 3 -->
+                <div class="event-card">
+                    <h3>Sanur Party Dance</h3>
+                    <p class="event-date-location">30 April 2021 , Bali</p>
+                    <a href="#" class="learn-more-link">Learn more &rarr;</a>
                 </div>
             </div>
         </div>
-        <!-- Pagination dots for testimonials carousel -->
-        <div class="pagination">
-            <div class="dot active"></div> <!-- Active dot -->
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </div>
     </section>
 
-    <!-- Clients Section: Displays client logos -->
-    <section id="clients-section" class="section-padding section-margin-bottom grey-border">
-        <div class="section-title"></div>
-        <!-- Container for client logos -->
-        <div class="item-container clients-logos">
-            <!-- Placeholder for individual client logo -->
-            <div class="logo-placeholder"></div>
-            <div class="logo-placeholder"></div>
-            <div class="logo-placeholder"></div>
-            <div class="logo-placeholder"></div>
-            <div class="logo-placeholder"></div>
-        </div>
-    </section>
-
-    <!-- Footer Section: Contains footer navigation and social icons -->
-    <footer id="footer" class="dark-grey-footer-bg text-white">
-        <!-- Top part of the footer with logo and search box -->
-        <div class="footer-top">
-            <div class="footer-logo"></div>
-            <div class="search-box"></div>
-        </div>
-        <!-- Bottom part of the footer with copyright and social icons -->
-        <div class="footer-bottom">
-            <!-- Placeholder for copyright/text -->
-            <div class="block-placeholder w-250px h-15px" style="background-color: #d3d3d3;"></div>
-            <!-- Container for social media icons -->
-            <div class="social-icons">
-                <!-- Placeholder for individual social icon -->
-                <div class="icon-placeholder"></div>
-                <div class="icon-placeholder"></div>
-                <div class="icon-placeholder"></div>
-                <div class="icon-placeholder"></div>
+    <!--------- New Release Section ----------->
+    <section id="new-release-section" class="new-release-section">
+        <div class="container new-release-content">
+            <div class="new-release-left">
+                <img src="assets/images/ourjourny.png" alt="Album Art" class="album-art">
+                <!-- Track List moved here -->
+                <div class="track-list-container">
+                    <p class="track-list-heading">TRACK LIST</p>
+                    <div class="track-list">
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">From Start</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">In Your Heart</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">Logical Mind</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">Do You Love Me ?</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">The Beat Of Your Heart</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">Last Journey</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        <div class="track-item">
+                            <i class="fas fa-play"></i>
+                            <span class="track-name">Other Ways</span>
+                            <span class="track-duration">04:12</span>
+                            <div class="track-actions">
+                                <i class="fas fa-music"></i>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="new-release-right">
+                <p class="new-release-text">NEW RELEASE</p>
+                <h3 class="new-release-title">" Our Journey "</h3>
+                <p class="new-release-available">AVAILABLE ON</p>
+                <div class="new-release-icons">
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fab fa-apple"></i></a>
+                    <a href="#"><i class="fas fa-music"></i></a>
+                    <a href="#"><i class="fas fa-headphones-alt"></i></a>
+                </div>
+
+                <p class="about-album-heading">ABOUT ALBUM</p>
+                <p class="about-album-text">
+                    Felis ligula taciti class lobortis efficitur eleifend lorem.
+                    Natoque ultricies sodales dapibus. Letius eros nullam
+                    libero hac dictumst. Massa ridiculus lacinia aptent aenean
+                    orci facilisi. Pellentesque facilist posuere dolor luctus nulla
+                    euismod. Libero tellus phasellus pharetra venenatis ac
+                    gravida nisl. Ut tempus enim proln vehicula leo metus.
+                </p>
+
+                <!-- Detail Album Info remains here -->
+                <div class="detail-album-info">
+                    <p class="detail-album-heading">DETAIL ALBUM</p>
+                    <div class="detail-item">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Artist</span>
+                        <span class="detail-value">BeatKit Ft. Rockerman</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Release</span>
+                        <span class="detail-value">7 April 2021</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-tag"></i>
+                        <span>Label</span>
+                        <span class="detail-value">QuickenWorks Record</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-music"></i>
+                        <span>Track</span>
+                        <span class="detail-value">11 Song</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Concert Section (New) -->
+    <section id="live-concert-section" class="live-concert-section">
+        <div class="container">
+            <p class="live-concert-top-text">LIVE CONCERT</p>
+            <h2 class="live-concert-heading">Upcoming Shows</h2>
+            <div class="concert-events-container">
+                <!-- Concert Item 1 -->
+                <div class="concert-item">
+                    <div class="concert-date-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="concert-date">21</span>
+                        <span class="concert-month">April</span>
+                    </div>
+                    <div class="concert-details">
+                        <h3 class="concert-name">Jakarta Music Fest</h3>
+                        <div class="concert-location-time">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Jakarta</span>
+                            <span class="time"><i class="fas fa-clock"></i> 07.00 PM</span>
+                        </div>
+                    </div>
+                    <button class="buy-ticket-btn">Buy Ticket</button>
+                </div>
+
+                <!-- Concert Item 2 -->
+                <div class="concert-item">
+                    <div class="concert-date-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="concert-date">26</span>
+                        <span class="concert-month">April</span>
+                    </div>
+                    <div class="concert-details">
+                        <h3 class="concert-name">Bali Electro Music</h3>
+                        <div class="concert-location-time">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Bali</span>
+                            <span class="time"><i class="fas fa-clock"></i> 07.00 PM</span>
+                        </div>
+                    </div>
+                    <button class="buy-ticket-btn">Buy Ticket</button>
+                </div>
+
+                <!-- Concert Item 3 (Sold Out) -->
+                <div class="concert-item">
+                    <div class="concert-date-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="concert-date">30</span>
+                        <span class="concert-month">April</span>
+                    </div>
+                    <div class="concert-details">
+                        <h3 class="concert-name">Sanur Party Dance</h3>
+                        <div class="concert-location-time">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Bali</span>
+                            <span class="time"><i class="fas fa-clock"></i> 07.00 PM</span>
+                        </div>
+                    </div>
+                    <button class="sold-out-btn">Sold Out</button>
+                </div>
+
+                <!-- Concert Item 4 -->
+                <div class="concert-item">
+                    <div class="concert-date-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="concert-date">3</span>
+                        <span class="concert-month">May</span>
+                    </div>
+                    <div class="concert-details">
+                        <h3 class="concert-name">Makassar Fest</h3>
+                        <div class="concert-location-time">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Sulsel</span>
+                            <span class="time"><i class="fas fa-clock"></i> 07.00 PM</span>
+                        </div>
+                    </div>
+                    <button class="buy-ticket-btn">Buy Ticket</button>
+                </div>
+
+                <!-- Concert Item 5 -->
+                <div class="concert-item">
+                    <div class="concert-date-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="concert-date">10</span>
+                        <span class="concert-month">April</span>
+                    </div>
+                    <div class="concert-details">
+                        <h3 class="concert-name">Medan Electro Dance</h3>
+                        <div class="concert-location-time">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Medan</span>
+                            <span class="time"><i class="fas fa-clock"></i> 07.00 PM</span>
+                        </div>
+                    </div>
+                    <button class="buy-ticket-btn">Buy Ticket</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Musician Gallery Section (New) -->
+    <section id="musician-gallery-section" class="musician-gallery-section">
+        <div class="musician-gallery-container">
+            <img src="assets/images/artists.png" alt="Artists Images">
+    </section>
+
+    <!-- News & Update Section -->
+    <section id="news-update-section" class="news-update-section">
+        <div class="container">
+            <div class="news-header">
+                <p class="news-top-text">LATEST</p>
+                <h2 class="news-heading">News & Update</h2>
+                <button class="more-news-btn">More News &rarr;</button>
+            </div>
+            <div class="news-cards-container">
+                <!-- News Card 1 -->
+                <div class="news-card">
+                    <img src="assets/images/marbleart.png" alt="News Image 1" class="news-img">
+                    <h3 class="news-title">" Marble " Album Ready on Online Music Platform</h3>
+                    <p class="news-meta">April 7, 2021 / No Comments</p>
+                </div>
+                <!-- News Card 2 -->
+                <div class="news-card">
+                    <img src="assets/images/pinklove.png" alt="News Image 2" class="news-img">
+                    <h3 class="news-title">Single " Pink Love " brings the BØ's Style</h3>
+                    <p class="news-meta">April 7, 2021 / No Comments</p>
+                </div>
+                <!-- News Card 3 -->
+                <div class="news-card">
+                    <img src="assets/images/onlineperformance.png" alt="News Image 3" class="news-img">
+                    <h3 class="news-title">Online Performance Featuring With Rich Brian</h3>
+                    <p class="news-meta">April 7, 2021 / No Comments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section -->
+    <section id="sponsor-section" class="sponsor-section">
+        <div class="container">
+            <p class="sponsor-top-text">SPONSOR</p>
+            <h2 class="sponsor-title">Thanks for Supported Us</h2>
+            <div class="sponsor-logos">
+                <!-- Sponsor Logo 1 -->
+                <img src="assets/images/spora-logo_white.png" alt="Sponsor 1" class="sponsor-logo">
+                <!-- Sponsor Logo 2 -->
+                <img src="assets/images/logo-avontur.png" alt="Sponsor 2" class="sponsor-logo">
+                <!-- Sponsor Logo 3 -->
+                <img src="assets/images/logo-bikepro_.png" alt="Sponsor 3" class="sponsor-logo">
+                <!-- Sponsor Logo 4 -->
+                <img src="assets/images/Logo-Carbon.png" alt="Sponsor 4" class="sponsor-logo">
+                <!-- Sponsor Logo 5 -->
+                <img src="assets/images/hasto-logo.png" alt="Sponsor 5" class="sponsor-logo">
+                <!-- Sponsor Logo 6 -->
+                <img src="assets/images/Logo-eunoia.png" alt="Sponsor 6" class="sponsor-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section id="discover-section" class="discover-section">
+        <div class="container">
+            <p class="discover-text-top">OUR JOURNEY</p>
+            <h2 class="discover-heading">Discover</h2>
+            <!-- Video Container -->
+            <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9ao4FEaDGhQ?si=NLX2dkJDdCaSEKSq&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us-section" class="about-us-section">
+        <div class="container about-us-content">
+            <h2 class="about-us-title">ABOUT US</h2>
+          
+            <h3 class="about-us-subtitle">We Are<br>Professional<br>Talent<br>Musician</h3>
+            <p class="about-us-paragraph-bottom">
+                Posuere maximus pretium nascetur molestie hac arcu consectetuer. Ornare imperdiet facilisis
+                lacinia pharetra mauris dictum. Sed per sodales dapibus efficitur montes. Pede arcu potenti
+                pretium.
+                <br>
+                <br>
+                Posuere maximus pretium nascetur molestie hac arcu consectetuer. Ornare imperdiet facilisis
+                lacinia pharetra mauris dictum. Sed per sodales dapibus efficitur montes. Pede arcu potenti
+                pretium.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer-section">
+        <div class="container footer-grid-container">
+            <!-- Footer Left Column -->
+            <div class="footer-left-col">
+                <div class="footer-logo">
+                    <img src="assets/images/Logo-kit.png" alt="Beatkit Footer Logo">
+                </div>
+                <p class="footer-description">
+                    Template Kit for Beat Music or DJ. Futuristic Design and full of light.
+                    You can easily start and build your content writing service website with
+                    this elementor template kit.
+                </p>
+                <div class="footer-social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Footer About Us Column -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">About Us</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Sponsorship</a></li>
+                    <li><a href="#">Tours & Events</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Support Column -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Support</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#">Artist Management</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Fans</a></li>
+                    <li><a href="#">Merchandise</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2025 Riju Raju | UI/UX Designer</p>
         </div>
     </footer>
+
+
+
+    <!-------------- Back to Top Button ------------>
+<a href="#top" class="back-to-top">
+<button class="btn-top">
+  Top <i class="fas fa-arrow-up"></i>
+</button>
+</a>
+
+
 </body>
 </html>
+
